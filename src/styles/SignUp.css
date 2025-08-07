@@ -7,9 +7,10 @@
     margin: 0 auto;
     align-items: center;
     width: 100%;
-    max-width: 400px;
+    max-width: 320px;
     padding: 20px;
-    background-color: #977a7a;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
@@ -17,15 +18,24 @@
 @media (max-width: 500px) {
     .form-signup {
         padding: 10px;
-        max-width: 95vw;
+        max-width: 50vw;
     }
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 1rem;
+    background-color: #f9f9f9;
+    padding: 0.5rem;
 }
 
 .form-lab-input {
     display: flex;
     flex-direction: column;
-    margin: 1rem;
-    padding: 1.5rem;
+    background-color: #f9f9f9;
+    margin: 1rem 0;
+    padding: 0 2rem;
 }
 
 label {
@@ -33,7 +43,7 @@ label {
     font-weight: bold;
     font-size: 12px;
     color: #333;
-    padding: 0.5rem;
+    padding: 0.5rem 0;
 }
 
 .form-input {

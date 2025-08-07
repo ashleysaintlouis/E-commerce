@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../styles/SignUp.css'; // Assuming you have a CSS file for styling
+import '../../styles/SignUp.css';
 
 const SignUp = () => {
 
@@ -47,7 +47,7 @@ const SignUp = () => {
           <p className="form-text">Já tem uma conta? <a href="/signin">Entrar</a></p>
 
 
-        </div>\
+        </div>
       </form>
     
     </>
